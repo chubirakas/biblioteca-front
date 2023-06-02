@@ -12,23 +12,13 @@ const Header = ()=>{
 
 }
 
-const Info = (props)=>{
-  return(
-  <div>
-    <h3>Nome: {props.nome}</h3>
-    <h4>Email: {props.email}</h4>
-    </div>
-  );
-}
-
 function App() {
   return (
     <div>eba
       <Header/>
-      <Info nome = "cabila" email = "cabila@cabila.com"/>
-      <Info nome = "cabide" email = "cabide@cabide.com"/>
-      <Info nome = "cabra" email = "cabra@cabra.com"/>
-      <Sobre/>
+      <Sobre nome = "cabila" email = "cabila@cabila.com"/>
+      <Sobre nome = "cabide" email = "cabide@cabide.com"/>
+      <Sobre nome = "cabra" email = "cabra@cabra.com"/>
     </div>
   );
 }
